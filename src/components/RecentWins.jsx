@@ -62,7 +62,7 @@ function WinCard({ c }) {
         </div>
         <button
           onClick={() => setRevealed(true)}
-          className="w-full bg-[#c5a043] text-white py-4 rounded-xl font-black uppercase tracking-widest text-[9px] flex items-center justify-center gap-2 hover:opacity-90 transition-all shadow-md mt-6"
+          className="w-full bg-[#c5a043] text-white py-4 rounded-xl font-black uppercase tracking-widest text-lg flex items-center justify-center gap-2 hover:opacity-90 transition-all shadow-md mt-6"
         >
           CLICK HERE TO REVEAL WHAT WE RECOVERED
         </button>
