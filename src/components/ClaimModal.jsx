@@ -95,16 +95,26 @@ export default function ClaimModal({ onClose }) {
       last_name: '',
       email,
       phone,
-      message: [
-        `Incident Type: ${incident || 'Not provided'}`,
-        `Story: ${story || 'Not provided'}`,
-        `Impacts: ${impacts.length ? impacts.join(', ') : 'Not provided'}`,
-        `Already spoke to a lawyer: ${hasLawyer ?? 'Not provided'}`,
-      ].join('\n\n'),
-      incident_type: incident || '',
-      story: story || '',
-      impacts: impacts.join(', '),
-      has_lawyer: hasLawyer || '',
+      message: `
+NEW CASE LEAD
+
+Name: ${name || "Not provided"}
+Email: ${email || "Not provided"}
+Phone: ${phone || "Not provided"}
+
+Incident Type:
+${incident || "Not provided"}
+
+What Happened:
+${story || "Not provided"}
+
+Impacts:
+${impacts.length ? impacts.map(i => `- ${i}`).join("\n") : "Not provided"}
+
+Legal Status:
+${hasLawyer === "Yes" ? "Already has a lawyer" : "Has not spoken to a lawyer"}
+`,
+     
     };
 
     try {
