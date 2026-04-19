@@ -23,13 +23,7 @@ export default function HeroSection({ onOpenModal }) {
 
       <div className="absolute inset-0 z-10 bg-black/40" />
 
-      <div className="absolute bottom-0 right-0 z-10 hidden h-full items-end justify-end pr-8 pointer-events-none md:flex lg:pr-24">
-        <img
-          src="https://uxmagic.blob.core.windows.net/components/uploads/d302e73a-b8e8-4cfb-880c-a394d86430e2-1775993795746-i7z3w28doha.png"
-          alt="Janai Jackson"
-          className="h-[90%] w-auto object-contain object-bottom drop-shadow-[0_20px_50px_rgba(0,0,0,0.8)]"
-        />
-      </div>
+      
 
       <div className="relative z-20 mx-auto flex min-h-screen w-full max-w-7xl items-center px-5 pt-28 pb-4 sm:px-8 sm:pt-36 sm:pb-8">
         <div className="max-w-xl space-y-5">
