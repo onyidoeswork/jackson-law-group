@@ -61,11 +61,11 @@ function WinCard({ c }) {
           <p className="text-xs text-[#71717a] italic leading-relaxed">"{c.desc}"</p>
         </div>
         <button
-          onClick={() => setRevealed(true)}
-          className="w-full bg-[#c5a043] text-white py-4 rounded-xl font-black uppercase tracking-widest text-base flex items-center justify-center gap-2 hover:opacity-90 transition-all shadow-md mt-6"
-        >
-          CLICK HERE TO REVEAL WHAT WE RECOVERED
-        </button>
+  onClick={() => setRevealed(true)}
+  className="w-full bg-[#c5a043] text-white py-4 rounded-xl font-black uppercase tracking-wide text-sm flex items-center justify-center gap-2 hover:opacity-90 transition-all shadow-md mt-6"
+>
+  CLICK HERE TO REVEAL WHAT WE RECOVERED
+</button>
       </div>
 
       {/* Back: secured amount */}
