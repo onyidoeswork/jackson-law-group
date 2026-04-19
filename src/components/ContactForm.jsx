@@ -25,10 +25,13 @@ export default function ContactForm() {
           <form
   name="contact"
   method="POST"
+  action="/"
   data-netlify="true"
+  data-netlify-honeypot="bot-field"
   className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6"
 >
   <input type="hidden" name="form-name" value="contact" />
+  <input type="hidden" name="bot-field" />
 
   <input
     name="first_name"
