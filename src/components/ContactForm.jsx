@@ -23,60 +23,60 @@ export default function ContactForm() {
           </h3>
 
           <form
-            name="contact"
-            method="POST"
-            data-netlify="true"
-            className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6"
-          >
-            <input type="hidden" name="form-name" value="contact" />
+  name="contact"
+  method="POST"
+  data-netlify="true"
+  className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6"
+>
+  <input type="hidden" name="form-name" value="contact" />
 
-            <input
-              type="text"
-              name="first_name"
-              placeholder="First Name"
-              required
-              className="p-4 bg-[#f5f5f5] border border-[#e4e4e7] rounded-sm focus:outline-none focus:ring-1 focus:ring-[#c5a043] text-sm"
-            />
+  <input
+    name="first_name"
+    type="text"
+    placeholder="First Name"
+    required
+    className="p-4 bg-[#f5f5f5] border border-[#e4e4e7] rounded-sm"
+  />
 
-            <input
-              type="text"
-              name="last_name"
-              placeholder="Last Name"
-              required
-              className="p-4 bg-[#f5f5f5] border border-[#e4e4e7] rounded-sm focus:outline-none focus:ring-1 focus:ring-[#c5a043] text-sm"
-            />
+  <input
+    name="last_name"
+    type="text"
+    placeholder="Last Name"
+    required
+    className="p-4 bg-[#f5f5f5] border border-[#e4e4e7] rounded-sm"
+  />
 
-            <input
-              type="email"
-              name="email"
-              placeholder="Email Address"
-              required
-              className="p-4 bg-[#f5f5f5] border border-[#e4e4e7] rounded-sm focus:outline-none focus:ring-1 focus:ring-[#c5a043] text-sm"
-            />
+  <input
+    name="email"
+    type="email"
+    placeholder="Email Address"
+    required
+    className="p-4 bg-[#f5f5f5] border border-[#e4e4e7] rounded-sm"
+  />
 
-            <input
-              type="tel"
-              name="phone"
-              placeholder="Phone Number"
-              required
-              className="p-4 bg-[#f5f5f5] border border-[#e4e4e7] rounded-sm focus:outline-none focus:ring-1 focus:ring-[#c5a043] text-sm"
-            />
+  <input
+    name="phone"
+    type="tel"
+    placeholder="Phone Number"
+    required
+    className="p-4 bg-[#f5f5f5] border border-[#e4e4e7] rounded-sm"
+  />
 
-            <textarea
-              name="message"
-              placeholder="Briefly tell us what happened..."
-              rows={4}
-              required
-              className="sm:col-span-2 p-4 bg-[#f5f5f5] border border-[#e4e4e7] rounded-sm focus:outline-none focus:ring-1 focus:ring-[#c5a043] text-sm resize-none"
-            />
+  <textarea
+    name="message"
+    placeholder="Briefly tell us what happened..."
+    rows={4}
+    required
+    className="sm:col-span-2 p-4 bg-[#f5f5f5] border border-[#e4e4e7] rounded-sm"
+  />
 
-            <button
-              type="submit"
-              className="sm:col-span-2 bg-[#c5a043] text-white py-5 font-black uppercase tracking-widest hover:opacity-90 transition-opacity shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c5a043] focus-visible:ring-offset-4"
-            >
-              Submit My Case
-            </button>
-          </form>
+  <button
+    type="submit"
+    className="sm:col-span-2 bg-[#c5a043] text-white py-5 font-black uppercase tracking-widest"
+  >
+    Submit My Case
+  </button>
+</form>
         </div>
       </div>
     </section>
