@@ -1,11 +1,13 @@
+import React from 'react';
 import { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 
 export default function SiteHeader({ onOpenModal }) {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(window.location.pathname !== '/');
 
   useEffect(() => {
+    if (window.location.pathname !== '/') return;
     const handleScroll = () => setIsScrolled(window.scrollY > 50);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
