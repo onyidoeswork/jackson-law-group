@@ -1,3 +1,4 @@
+import React from 'react';
 import { Gavel, ShieldCheck, Phone } from 'lucide-react';
 
 const reasons = [
@@ -15,7 +16,7 @@ export default function WhyUs() {
             Why Big Insurance<br />
             <span className="text-[#B8974D]">Fears Us.</span>
           </h2>
-          <p className="text-[#B8974D] font-black uppercase tracking-[0.3em] text-[10px] pt-4">WE'VE BEEN ON THEIR SIDE. NOW WE FIGHT AGAINST THEM.</p>
+          <p className="text-[#B8974D] font-black uppercase tracking-[0.3em] text-[10px] pt-4">WE PREPARE EVERY CASE FOR TRIAL.</p>
         </div>
         <p className="text-lg sm:text-xl text-[#71717a] leading-relaxed max-w-2xl font-medium">
           We prepare every case as if it's going to trial. When insurance companies see our name, they know we mean business. We don't just settle — we fight for the maximum value of your claim.
