@@ -1,3 +1,4 @@
+import React from 'react';
 export default function TrustSection() {
   const logos = [
     { src: "https://media.base44.com/images/public/69dc55dbe71c33c9efd9e381/d42b4d3c7_WhatsAppImage2026-04-16at55155AM.jpeg", alt: "Fox News" },
@@ -20,7 +21,7 @@ export default function TrustSection() {
           {awards.map(({ src, alt }) => (
             <div
               key={alt}
-              className={`flex-none flex items-center justify-center ${alt === 'Top 40 Under 40 - National Black Lawyers' ? 'w-20 h-20 md:w-28 md:h-28' : 'w-16 h-16 md:w-24 md:h-24'}`}
+              className={`flex-none flex items-center justify-center ${alt === 'Top 40 Under 40 - National Black Lawyers' ? 'w-28 h-28 md:w-40 md:h-40' : 'w-24 h-24 md:w-36 md:h-36'}`}
             >
               <img src={src} alt={alt} className="w-full h-full object-contain" />
             </div>

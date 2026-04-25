@@ -1,3 +1,4 @@
+import React from 'react';
 import { X } from 'lucide-react';
 
 export default function FloatingChat({ onOpenModal, onClose }) {
@@ -15,7 +16,7 @@ export default function FloatingChat({ onOpenModal, onClose }) {
           onClick={onOpenModal}
           className="flex items-center gap-0 ml-2 mr-1"
         >
-          <span className="text-[#c5a043] font-black uppercase tracking-widest text-xs px-3 py-2 border-r border-[#e4e4e7]">Live Chat</span>
+          <span className="text-[#c5a043] font-black uppercase tracking-widest text-xs px-3 py-2 border-r border-[#e4e4e7]">Chat Now</span>
           <span className="text-[#3a3a3a] font-black uppercase tracking-widest text-xs px-3 py-2">Start Now</span>
         </button>
         <button
