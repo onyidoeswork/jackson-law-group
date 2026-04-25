@@ -1,3 +1,4 @@
+import React from 'react';
 export default function SiteFooter() {
   return (
 <footer className="w-full bg-white py-12 px-8 border-t border-[#e4e4e7]">      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
@@ -18,7 +19,7 @@ className="h-14 w-auto object-contain rounded-sm mt-2 md:mt-3"        />
           </div>
 
           {/* Offices */}
-          <div className="pt-3 border-t border-[#e4e4e7] grid grid-cols-1 md:grid-cols-2 gap-6">
+          <p className="text-xs font-bold uppercase tracking-widest text-[#3a3a3a] pt-3 border-t border-[#e4e4e7]">Locations</p><div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
             <div className="space-y-1">
               <p className="text-sm font-semibold text-[#18181b]">South Brooklyn</p>
               <p className="text-xs text-[#71717a]">807 Kings Highway, Suite 2</p>

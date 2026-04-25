@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import TopBar from '../components/TopBar';
@@ -83,10 +84,13 @@ export default function About() {
             {/* Bio & Details */}
             <div className="flex-1 space-y-10">
               <p className="text-[#71717a] leading-relaxed text-lg">
-                As the founder of the Jackson Legal Group, Janai is committed to providing exceptional service to each and every client. Janai is admitted to practice law in New York State. She received a Bachelor of Science Degree from Morgan State University and was awarded her Juris Doctorate from Touro Law Center.
+                Janai Jackson is the founder of Jackson Legal Group, P.C., where she is committed to delivering exceptional legal representation and personalized service to every client. Ms. Jackson is admitted to practice law in the State of New York and focuses her practice on advocating for individuals who have been injured due to the negligence of others.
               </p>
               <p className="text-[#71717a] leading-relaxed text-lg">
-                From working as an assistant district attorney at the prestigious Kings County District Attorney's Office to opening her own practice, Janai has represented and worked with clients large and small ranging from the every day citizen to Fortune 10 companies. She is committed to obtaining the largest possible compensation permitted by law for her injured clients.
+                Ms. Jackson earned her Bachelor of Science from Morgan State University and her Juris Doctor from Touro Law Center. She began her legal career as an Assistant District Attorney in the Kings County District Attorney's Office, where she gained extensive courtroom experience handling a wide range of cases and advocating on behalf of the community.
+              </p>
+              <p className="text-[#71717a] leading-relaxed text-lg">
+                After her time in public service, Ms. Jackson founded Jackson Legal Group, P.C., where she has represented hundreds of clients and guided them through the legal process following serious injuries. She is dedicated to protecting her clients' rights and pursuing the maximum compensation permitted under the law for those harmed by the negligence of others. In recognition of her professional accomplishments, Ms. Jackson was named to the National Black Lawyers Top 40 Under 40.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
@@ -128,7 +132,8 @@ export default function About() {
                     <h4 className="font-black text-sm uppercase tracking-widest">Bar Admissions</h4>
                   </div>
                   <ul className="space-y-2 text-sm text-[#71717a]">
-                    <li>New York — 2nd Dept</li>
+                    <li>New York State</li>
+                    <li>U.S. District Court, Eastern District of New York</li>
                   </ul>
                 </div>
               </div>
