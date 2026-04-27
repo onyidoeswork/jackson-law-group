@@ -1,3 +1,4 @@
+import React from 'react';
 export default function ContactForm() {
   return (
     <section id="critical-action" className="w-full py-16 sm:py-24 px-5 sm:px-8 bg-white">

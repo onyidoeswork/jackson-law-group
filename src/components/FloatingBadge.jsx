@@ -1,3 +1,4 @@
+import React from 'react';
 import { ShieldCheck, X } from 'lucide-react';
 
 export default function FloatingBadge({ onOpenModal, onClose }) {

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Clock, Languages } from 'lucide-react';
 
 export default function BilingualBanner() {

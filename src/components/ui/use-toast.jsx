@@ -1,3 +1,4 @@
+import React from 'react';
 // Inspired by react-hot-toast library
 import { useState, useEffect } from "react";
 
