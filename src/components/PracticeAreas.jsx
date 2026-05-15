@@ -3,15 +3,15 @@ import { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
 const areas = [
-  { title: 'Personal Injury', img: 'https://i.ibb.co/zhqnQYfD/tingey-injury-law-firm-DZpc4-UY8-Zt-Y-unsplash.jpg', desc: 'Aggressive representation for medical malpractice, product liability, and catastrophic workplace accidents.' },
-  { title: 'Truck Accidents', img: 'https://i.ibb.co/FkjZVzfc/nikoloz-gachechiladze-uht-NG8x-kn8-unsplash.jpg', desc: 'Specialized litigation against commercial trucking companies and corporate insurance providers.' },
-  { title: 'Construction Injury', img: 'https://i.ibb.co/xKPD4y8L/taqqy-rb-keb-E5-ZSz-Gc-unsplash.jpg', desc: "Protecting workers' rights after falls, equipment failures, and safety violations on NYC job sites." },
-  { title: 'Motor Vehicle', img: 'https://i.ibb.co/rRtJgZHq/anthony-maw-Xcj-Vef6uv-YA-unsplash.jpg', desc: 'Expert litigation for complex car, motorcycle, and commercial vehicle collisions across New York.' },
-  { title: 'Premises Liability', img: 'https://i.ibb.co/5WYGJr0x/odd-fellow-M8-w-XGEj-UVg-unsplash.jpg', desc: 'Holding property owners accountable for slip and falls, negligent security, and hazardous conditions.' },
-  { title: 'Wrongful Death', img: 'https://i.ibb.co/7tZH6q8X/vidar-nordli-mathisen-nvl-B39rzd-QE-unsplash.jpg', desc: 'Compassionate yet aggressive legal pursuit for families who have lost loved ones due to negligence.' },
-  { title: 'Medical Malpractice', img: 'https://i.ibb.co/NdQvHnWk/olga-guryanova-t-MFeat-BSS4s-unsplash.jpg', desc: 'Challenging hospital systems and practitioners for surgical errors, misdiagnosis, and birth injuries.' },
-  { title: 'Slip and Fall', img: 'https://i.ibb.co/tPTyfWJK/justin-snyder-photo-v-Qc-Vq-KDJYe-Q-unsplash.jpg', desc: 'Securing justice for victims of sidewalk defects, icy conditions, and poorly maintained commercial spaces.' },
-  { title: 'Pedestrian Injury', img: 'https://i.ibb.co/FbR24CPD/jon-tyson-97-WN7l-Uol-Nw-unsplash.jpg', desc: 'Representing individuals struck by vehicles while walking or cycling in the high-traffic streets of NYC.' },
+  { title: 'Personal Injury', img: '/images/personal-injury.jpg', desc: 'Aggressive representation for medical malpractice, product liability, and catastrophic workplace accidents.' },
+  { title: 'Truck Accidents', img: '/images/truck-accidents.jpg', desc: 'Specialized litigation against commercial trucking companies and corporate insurance providers.' },
+  { title: 'Construction Injury', img: '/images/construction-injury.jpg', desc: "Protecting workers' rights after falls, equipment failures, and safety violations on NYC job sites." },
+  { title: 'Motor Vehicle', img: '/images/motor-vehicle-accident.jpg', desc: 'Expert litigation for complex car, motorcycle, and commercial vehicle collisions across New York.' },
+  { title: 'Premises Liability', img: '/images/premises-liability.jpg', desc: 'Holding property owners accountable for slip and falls, negligent security, and hazardous conditions.' },
+  { title: 'Wrongful Death', img: '/images/wrongful-death.jpg', desc: 'Compassionate yet aggressive legal pursuit for families who have lost loved ones due to negligence.' },
+  { title: 'Medical Malpractice', img: '/images/medical.jpg', desc: 'Challenging hospital systems and practitioners for surgical errors, misdiagnosis, and birth injuries.' },
+  { title: 'Slip and Fall', img: '/images/slip-and-fall.jpg', desc: 'Securing justice for victims of sidewalk defects, icy conditions, and poorly maintained commercial spaces.' },
+  { title: 'Pedestrian Injury', img: '/images/pedestrian-injury.jpg', desc: 'Representing individuals struck by vehicles while walking or cycling in the high-traffic streets of NYC.' },
 ];
 
 function AreaCard({ a }) {

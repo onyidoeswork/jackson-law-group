@@ -5,7 +5,7 @@ import { X, ChevronRight, ChevronLeft, Check } from 'lucide-react';
 const INCIDENT_TYPES = [
   {
     label: 'Car Accident',
-    img: 'https://i.ibb.co/rRtJgZHq/anthony-maw-Xcj-Vef6uv-YA-unsplash.jpg',
+    img: '/images/motor-vehicle-accident.jpg',
     suggested: [
       'Another vehicle hit my car…',
       'I was hit from behind…',
@@ -15,7 +15,7 @@ const INCIDENT_TYPES = [
   },
   {
     label: 'Workplace Injury',
-    img: 'https://i.ibb.co/C5MCmQZk/nicolas-j-leclercq-WJg2byn-UWOk-unsplash.jpg',
+    img: '/images/workplace-injury.jpg',
     suggested: [
       'I was injured by faulty equipment…',
       'I fell on the job site…',
@@ -25,7 +25,7 @@ const INCIDENT_TYPES = [
   },
   {
     label: 'Medical Issue',
-    img: 'https://i.ibb.co/RpbyL7pD/hush-naidoo-jade-photography-yo01-Z-9-HQAw-unsplash.jpg',
+    img: '/images/medical.jpg',
     suggested: [
       'I received a wrong diagnosis…',
       'A doctor made an error during my treatment…',
@@ -35,7 +35,7 @@ const INCIDENT_TYPES = [
   },
   {
     label: 'Slip & Fall',
-    img: 'https://i.ibb.co/tPTyfWJK/justin-snyder-photo-v-Qc-Vq-KDJYe-Q-unsplash.jpg',
+    img: '/images/slip-and-fall.jpg',
     suggested: [
       'I slipped on a wet floor with no warning sign…',
       'I fell on a broken or uneven sidewalk…',
@@ -45,7 +45,7 @@ const INCIDENT_TYPES = [
   },
   {
     label: 'Other',
-    img: 'https://i.ibb.co/zhqnQYfD/tingey-injury-law-firm-DZpc4-UY8-Zt-Y-unsplash.jpg',
+    img: '/images/personal-injury.jpg',
     suggested: [
       "I was injured due to someone else's negligence…",
       'A defective product caused me harm…',
