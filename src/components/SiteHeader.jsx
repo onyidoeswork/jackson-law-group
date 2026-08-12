@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
+import WhatsAppIcon, { WHATSAPP_URL } from './WhatsAppIcon';
 
 export default function SiteHeader({ onOpenModal }) {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -42,9 +43,20 @@ export default function SiteHeader({ onOpenModal }) {
         <a href="#team" className="hover:text-[#c5a043] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c5a043]">Our Team</a>
         <a href="/about" className="hover:text-[#c5a043] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c5a043]">About Janai</a>
         <a href="#critical-action" className="hover:text-[#c5a043] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c5a043]">Contact Us</a>
-        <a href="tel:+12125225766" className={`p-2 rounded-sm border transition-colors hover:border-[#c5a043] hover:text-[#c5a043] ${isScrolled ? 'border-[#3a3a3a]/30' : 'border-white/40'}`}>
-          <Phone size={16} />
-        </a>
+        <div className="flex items-center gap-3">
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Message us on WhatsApp"
+            className={`p-2 rounded-sm border transition-colors hover:border-[#c5a043] hover:text-[#c5a043] ${isScrolled ? 'border-[#3a3a3a]/30' : 'border-white/40'}`}
+          >
+            <WhatsAppIcon size={16} />
+          </a>
+          <a href="tel:+12125225766" aria-label="Call us" className={`p-2 rounded-sm border transition-colors hover:border-[#c5a043] hover:text-[#c5a043] ${isScrolled ? 'border-[#3a3a3a]/30' : 'border-white/40'}`}>
+            <Phone size={16} />
+          </a>
+        </div>
         <button
           onClick={onOpenModal}
           className="bg-[#c5a043] text-white px-4 py-2 rounded-sm font-bold uppercase tracking-widest hover:opacity-90 transition-opacity focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c5a043] focus-visible:ring-offset-4 text-xs"
@@ -55,7 +67,16 @@ export default function SiteHeader({ onOpenModal }) {
 
       {/* MOBILE */}
       <div className="lg:hidden flex items-center gap-3">
-        <a href="tel:+12125225766" className={`transition-colors duration-300 ${isScrolled ? 'text-[#3a3a3a]' : 'text-white'} hover:text-[#c5a043]`}>
+        <a
+          href={WHATSAPP_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Message us on WhatsApp"
+          className={`transition-colors duration-300 ${isScrolled ? 'text-[#3a3a3a]' : 'text-white'} hover:text-[#c5a043]`}
+        >
+          <WhatsAppIcon size={22} />
+        </a>
+        <a href="tel:+12125225766" aria-label="Call us" className={`transition-colors duration-300 ${isScrolled ? 'text-[#3a3a3a]' : 'text-white'} hover:text-[#c5a043]`}>
           <Phone size={22} />
         </a>
         <button className={`focus-visible:outline-none transition-colors duration-300 ${isScrolled ? 'text-[#3a3a3a]' : 'text-white'}`} onClick={() => setMobileOpen(!mobileOpen)}>
@@ -71,6 +92,15 @@ export default function SiteHeader({ onOpenModal }) {
           <a href="#team" className="font-bold uppercase tracking-widest text-sm hover:text-[#c5a043] transition-colors" onClick={() => setMobileOpen(false)}>Our Team</a>
           <a href="/about" className="font-bold uppercase tracking-widest text-sm hover:text-[#c5a043] transition-colors" onClick={() => setMobileOpen(false)}>About Janai</a>
           <a href="#critical-action" className="font-bold uppercase tracking-widest text-sm hover:text-[#c5a043] transition-colors" onClick={() => setMobileOpen(false)}>Contact Us</a>
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 font-bold uppercase tracking-widest text-sm hover:text-[#c5a043] transition-colors"
+            onClick={() => setMobileOpen(false)}
+          >
+            <WhatsAppIcon size={16} /> WhatsApp Us
+          </a>
           <button onClick={() => { onOpenModal(); setMobileOpen(false); }} className="bg-[#c5a043] text-white px-6 py-3 rounded-sm font-bold uppercase tracking-widest text-sm">
             Free Case Review
           </button>
