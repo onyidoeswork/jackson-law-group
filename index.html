@@ -64,13 +64,20 @@
 
   <body>
 
-    <!-- ✅ Netlify hidden form (DO NOT REMOVE) -->
-   <form name="contact" data-netlify="true" hidden>
+    <!-- ✅ Netlify hidden form (DO NOT REMOVE)
+         Netlify registers a form's fields from the static HTML it finds at
+         build time. The real forms are rendered by React or live on the
+         static practice pages, so this declaration is what defines the
+         "contact" form. Any field not listed here is dropped from
+         submissions, and the honeypot only works if it is declared here. -->
+   <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
   <input type="text" name="first_name" />
   <input type="text" name="last_name" />
   <input type="email" name="email" />
   <input type="tel" name="phone" />
   <textarea name="message"></textarea>
+  <input type="text" name="practice_area" />
+  <input type="text" name="bot-field" />
 </form>
 
     <!-- your app -->

@@ -49,7 +49,7 @@ export default function SiteHeader({ onOpenModal }) {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Message us on WhatsApp"
+            aria-label="Chat on WhatsApp"
             className={`p-2 rounded-sm border transition-colors hover:border-[#c5a043] hover:text-[#c5a043] ${isScrolled ? 'border-[#3a3a3a]/30' : 'border-white/40'}`}
           >
             <WhatsAppIcon size={16} />
@@ -72,7 +72,7 @@ export default function SiteHeader({ onOpenModal }) {
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Message us on WhatsApp"
+          aria-label="Chat on WhatsApp"
           className={`transition-colors duration-300 ${isScrolled ? 'text-[#3a3a3a]' : 'text-white'} hover:text-[#c5a043]`}
         >
           <WhatsAppIcon size={22} />
