@@ -92,6 +92,7 @@ export default function ClaimModal({ onClose }) {
     const payload = {
       'form-name': 'contact',
       'bot-field': '',
+      practice_area: 'Home Page - Case Review Modal',
       first_name: name,
       last_name: '',
       email,

@@ -1,0 +1,249 @@
+[
+  {
+    "label": "Personal Injury",
+    "url": "/practice/personal-injury/",
+    "blurb": "Serious injuries of every kind, plus claims with special rules.",
+    "types_of_cases": [
+      {
+        "label": "Traumatic Brain Injury",
+        "url": "/practice/traumatic-brain-injury/"
+      },
+      {
+        "label": "Spinal Injuries and Spine Surgery",
+        "url": "/practice/spinal-injuries/"
+      },
+      {
+        "label": "Burn Injuries",
+        "url": "/practice/burn-injuries/"
+      },
+      {
+        "label": "Catastrophic Injury and Amputation",
+        "url": "/practice/catastrophic-injuries/"
+      },
+      {
+        "label": "Product Liability",
+        "url": "/practice/product-liability/"
+      },
+      {
+        "label": "Claims Against the City",
+        "url": "/practice/claims-against-city-of-new-york/"
+      },
+      {
+        "label": "Police Misconduct and False Arrest",
+        "url": "/practice/police-misconduct-false-arrest/"
+      },
+      {
+        "label": "New Jersey Personal Injury",
+        "url": "/practice/new-jersey-personal-injury/"
+      }
+    ],
+    "related_pages": []
+  },
+  {
+    "label": "Truck Accidents",
+    "url": "/practice/truck-accidents/",
+    "blurb": "Commercial trucks, garbage trucks, and delivery fleets.",
+    "types_of_cases": [
+      {
+        "label": "Sanitation and Dump Truck Accidents",
+        "url": "/practice/sanitation-and-dump-truck-accidents/"
+      }
+    ],
+    "related_pages": [
+      {
+        "label": "Delivery Vehicle Accidents",
+        "url": "/practice/delivery-vehicle-accidents/"
+      }
+    ]
+  },
+  {
+    "label": "Construction Injury",
+    "url": "/practice/construction-accidents/",
+    "blurb": "Labor Law claims for injured workers.",
+    "types_of_cases": [
+      {
+        "label": "Scaffold and Ladder Falls",
+        "url": "/practice/scaffold-falls/"
+      },
+      {
+        "label": "Falling Objects",
+        "url": "/practice/falling-objects-construction/"
+      },
+      {
+        "label": "Crane and Heavy Equipment Accidents",
+        "url": "/practice/crane-and-heavy-equipment-accidents/"
+      }
+    ],
+    "related_pages": [
+      {
+        "label": "Burn Injuries",
+        "url": "/practice/burn-injuries/"
+      }
+    ]
+  },
+  {
+    "label": "Motor Vehicle",
+    "url": "/practice/motor-vehicle-accidents/",
+    "blurb": "Cars, motorcycles, bikes, rideshares, and buses.",
+    "types_of_cases": [
+      {
+        "label": "Car Accidents",
+        "url": "/practice/car-accidents/"
+      },
+      {
+        "label": "Motorcycle Accidents",
+        "url": "/practice/motorcycle-accidents/"
+      },
+      {
+        "label": "Bicycle, E-Bike and Scooter Accidents",
+        "url": "/practice/bicycle-ebike-scooter-accidents/"
+      },
+      {
+        "label": "Uber and Lyft Accidents",
+        "url": "/practice/uber-lyft-accidents/"
+      },
+      {
+        "label": "MTA Bus and Subway Accidents",
+        "url": "/practice/mta-bus-subway-accidents/"
+      },
+      {
+        "label": "Hit and Run and Uninsured Drivers",
+        "url": "/practice/hit-and-run-uninsured-driver/"
+      },
+      {
+        "label": "Delivery Vehicle Accidents",
+        "url": "/practice/delivery-vehicle-accidents/"
+      }
+    ],
+    "related_pages": []
+  },
+  {
+    "label": "Premises Liability",
+    "url": "/practice/premises-liability/",
+    "blurb": "Unsafe buildings, broken security, and dangerous conditions.",
+    "types_of_cases": [
+      {
+        "label": "NYCHA Accidents",
+        "url": "/practice/nycha-accidents/"
+      },
+      {
+        "label": "Negligent Security",
+        "url": "/practice/negligent-security/"
+      },
+      {
+        "label": "Ceiling Collapse",
+        "url": "/practice/ceiling-collapse/"
+      },
+      {
+        "label": "Elevator and Escalator Accidents",
+        "url": "/practice/elevator-and-escalator-accidents/"
+      },
+      {
+        "label": "Dog Bites",
+        "url": "/practice/dog-bites/"
+      }
+    ],
+    "related_pages": []
+  },
+  {
+    "label": "Wrongful Death",
+    "url": "/practice/wrongful-death/",
+    "blurb": "Claims for families who lost someone to negligence.",
+    "types_of_cases": [],
+    "related_pages": [
+      {
+        "label": "Nursing Home Neglect",
+        "url": "/practice/nursing-home-neglect/"
+      },
+      {
+        "label": "Hospital and ER Negligence",
+        "url": "/practice/hospital-and-er-negligence/"
+      },
+      {
+        "label": "Sanitation and Dump Truck Accidents",
+        "url": "/practice/sanitation-and-dump-truck-accidents/"
+      },
+      {
+        "label": "Crane and Heavy Equipment Accidents",
+        "url": "/practice/crane-and-heavy-equipment-accidents/"
+      }
+    ]
+  },
+  {
+    "label": "Medical Malpractice",
+    "url": "/practice/medical-malpractice/",
+    "blurb": "Hospital, doctor, and nursing home errors.",
+    "types_of_cases": [
+      {
+        "label": "Birth Injuries",
+        "url": "/practice/birth-injuries/"
+      },
+      {
+        "label": "Surgical Errors",
+        "url": "/practice/surgical-errors/"
+      },
+      {
+        "label": "Misdiagnosis and Delayed Diagnosis",
+        "url": "/practice/misdiagnosis-delayed-diagnosis/"
+      },
+      {
+        "label": "Hospital and ER Negligence",
+        "url": "/practice/hospital-and-er-negligence/"
+      },
+      {
+        "label": "Nursing Home Neglect",
+        "url": "/practice/nursing-home-neglect/"
+      }
+    ],
+    "related_pages": []
+  },
+  {
+    "label": "Slip and Fall",
+    "url": "/practice/slip-and-fall/",
+    "blurb": "Falls on floors, sidewalks, snow, and ice.",
+    "types_of_cases": [
+      {
+        "label": "Sidewalk Trip and Fall",
+        "url": "/practice/sidewalk-trip-and-fall/"
+      },
+      {
+        "label": "Snow and Ice Accidents",
+        "url": "/practice/snow-and-ice-accidents/"
+      }
+    ],
+    "related_pages": [
+      {
+        "label": "NYCHA Accidents",
+        "url": "/practice/nycha-accidents/"
+      },
+      {
+        "label": "Elevator and Escalator Accidents",
+        "url": "/practice/elevator-and-escalator-accidents/"
+      }
+    ]
+  },
+  {
+    "label": "Pedestrian Injury",
+    "url": "/practice/pedestrian-accidents/",
+    "blurb": "People on foot or on bikes struck by vehicles.",
+    "types_of_cases": [],
+    "related_pages": [
+      {
+        "label": "Bicycle, E-Bike and Scooter Accidents",
+        "url": "/practice/bicycle-ebike-scooter-accidents/"
+      },
+      {
+        "label": "Hit and Run and Uninsured Drivers",
+        "url": "/practice/hit-and-run-uninsured-driver/"
+      },
+      {
+        "label": "MTA Bus and Subway Accidents",
+        "url": "/practice/mta-bus-subway-accidents/"
+      },
+      {
+        "label": "Sanitation and Dump Truck Accidents",
+        "url": "/practice/sanitation-and-dump-truck-accidents/"
+      }
+    ]
+  }
+]
