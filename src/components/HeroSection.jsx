@@ -29,7 +29,7 @@ export default function HeroSection({ onOpenModal }) {
       <div className="relative z-20 mx-auto flex min-h-screen w-full max-w-7xl items-center px-5 pt-28 pb-4 sm:px-8 sm:pt-36 sm:pb-8">
         <div className="max-w-xl space-y-5">
           <span className="inline-block rounded-sm bg-[#c5a043] px-3 py-1.5 text-[10px] font-black uppercase tracking-widest text-white">
-            Top Rated Injury Firm
+            Brooklyn &amp; NYC Injury Attorneys
           </span>
 
           <h1

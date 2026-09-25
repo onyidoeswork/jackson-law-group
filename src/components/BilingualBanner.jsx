@@ -23,8 +23,8 @@ export default function BilingualBanner() {
             <Languages size={28} className="text-white" />
           </div>
           <div className="pr-2 sm:pr-4">
-            <p className="text-zinc-600 font-black text-xs uppercase tracking-widest leading-none mb-1">Certified Assistance</p>
-            <p className="text-[#c5a043] font-black text-2xl sm:text-3xl uppercase tracking-tighter leading-none">Bilingual Team.</p>
+            <p className="text-zinc-600 font-black text-xs uppercase tracking-widest leading-none mb-1">Language Assistance</p>
+            <p className="text-[#c5a043] font-black text-2xl sm:text-3xl uppercase tracking-tighter leading-none">Se Habla Español.</p>
           </div>
         </div>
       </div>

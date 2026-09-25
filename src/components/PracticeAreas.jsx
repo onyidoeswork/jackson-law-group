@@ -4,9 +4,9 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 
 const areas = [
   { title: 'Personal Injury', img: '/images/personal-injury.jpg', desc: 'Aggressive representation for medical malpractice, product liability, and catastrophic workplace accidents.' },
-  { title: 'Truck Accidents', img: '/images/truck-accidents.jpg', desc: 'Specialized litigation against commercial trucking companies and corporate insurance providers.' },
+  { title: 'Truck Accidents', img: '/images/truck-accidents.jpg', desc: 'Taking on commercial trucking companies and corporate insurance providers.' },
   { title: 'Construction Injury', img: '/images/construction-injury.jpg', desc: "Protecting workers' rights after falls, equipment failures, and safety violations on NYC job sites." },
-  { title: 'Motor Vehicle', img: '/images/motor-vehicle-accident.jpg', desc: 'Expert litigation for complex car, motorcycle, and commercial vehicle collisions across New York.' },
+  { title: 'Motor Vehicle', img: '/images/motor-vehicle-accident.jpg', desc: 'Litigating complex car, motorcycle, and commercial vehicle collisions across New York.' },
   { title: 'Premises Liability', img: '/images/premises-liability.jpg', desc: 'Holding property owners accountable for slip and falls, negligent security, and hazardous conditions.' },
   { title: 'Wrongful Death', img: '/images/wrongful-death.jpg', desc: 'Compassionate yet aggressive legal pursuit for families who have lost loved ones due to negligence.' },
   { title: 'Medical Malpractice', img: '/images/medical.jpg', desc: 'Challenging hospital systems and practitioners for surgical errors, misdiagnosis, and birth injuries.' },
@@ -48,7 +48,7 @@ export default function PracticeAreas() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-10 sm:mb-16 space-y-4">
           <h2 className="font-black text-4xl sm:text-5xl tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>Practice Areas</h2>
-          <p className="text-lg sm:text-xl text-[#71717a] max-w-2xl leading-relaxed">We focus exclusively on high-stakes litigation across personal injury and specialized legal sectors.</p>
+          <p className="text-lg sm:text-xl text-[#71717a] max-w-2xl leading-relaxed">We focus exclusively on high-stakes personal injury litigation across New York City.</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-8">
           {areas.map((a, i) => (
