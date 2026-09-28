@@ -200,3 +200,30 @@ Against the City of New York in New York and New Jersey" would not make sense. T
   at `/sitemap.xml`, and `robots.txt` points at it, so Google will find the pages in time
   regardless; submitting only speeds up discovery. The property should be created and verified
   in the firm's own Google account so that ownership sits with the firm.
+
+---
+
+## 11. New Jersey advertising notice
+
+Ms. Jackson reviewed the site against New Jersey's attorney advertising rules and approved it.
+Her required notice was added to the footer, immediately after the existing Attorney
+Advertising line:
+
+> No aspect of this advertisement has been approved by the Supreme Court of New Jersey.
+
+The footer now reads:
+
+> Attorney Advertising. Prior results do not guarantee a similar outcome. This website is for
+> informational purposes only and does not constitute legal advice. **No aspect of this
+> advertisement has been approved by the Supreme Court of New Jersey.**
+
+It appears **once on every page of the site** — the 39 practice pages, the practice areas index,
+and, through the shared footer component, the home page, About and Privacy Policy. It was also
+added to the held-back New Jersey draft so that page is ready when it publishes.
+
+Nothing else was changed. The disclaimer above each intake form is untouched, and every page
+still carries exactly one of those.
+
+**Note on "Prior results do not guarantee a similar outcome."** That sentence was already on
+every page — in the footer on all 39, and again under the Results section on the 9 pages that
+show settlements. It was not added again, to avoid a third copy.
