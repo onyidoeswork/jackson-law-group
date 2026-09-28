@@ -131,7 +131,8 @@ export default function About() {
                     <h4 className="font-black text-sm uppercase tracking-widest">Bar Admissions</h4>
                   </div>
                   <ul className="space-y-2 text-sm text-[#71717a]">
-                    <li>New York State</li>
+                    <li>New York</li>
+                    <li>New Jersey</li>
                     <li>U.S. District Court, Eastern District of New York</li>
                   </ul>
                 </div>

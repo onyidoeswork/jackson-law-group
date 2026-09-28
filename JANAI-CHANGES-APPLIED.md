@@ -153,3 +153,39 @@ Run against the production build after all changes:
 | b | WhatsApp link | Swapped to **https://wa.me/12125225766** on all 43 buttons, after the number-based link was tested and confirmed to open a chat with Jackson Legal Group. |
 | c | Footer disclaimer | Kept as it is, as instructed. |
 | d | Disclaimer placement | Confirmed **above the intake form**, as instructed. On every page the disclaimer appears in the page before the form in document order, and roughly 360 pixels above it on screen. The previous short disclaimer that sat below the form was removed. |
+
+---
+
+## 10. New York and New Jersey positioning
+
+Applied after the pages went live, to present the firm across both states.
+
+| | Change |
+|---|---|
+| Home page badge | "Brooklyn & NYC Injury Attorneys" → **"NYC & NJ Injury Attorneys"** |
+| Home page practice areas intro | "…across New York City." → **"…across New York and New Jersey."** |
+| Page headlines | 37 H1s now end **"in New York and New Jersey"** |
+| Title tags and og:title | 37 updated to **"in NY & NJ"**, kept short so the firm name is not cut off in search results |
+| Structured data | `areaServed` on all 39 pages is now **New York City, New York, New Jersey** |
+| About page, Bar Admissions | now reads **New York / New Jersey / U.S. District Court, Eastern District of New York**. "State" dropped. |
+
+Body copy and meta descriptions were not touched, so Brooklyn remains throughout the text of
+all 39 pages and the local search signal is kept.
+
+**Two pages were deliberately left alone:** Claims Against the City of New York, and NYCHA
+Accidents. Both are about New York City bodies specifically — a headline reading "Claims
+Against the City of New York in New York and New Jersey" would not make sense. Their
+`areaServed` was still updated.
+
+### Needs your decision
+
+- **The About page biography** still reads "Ms. Jackson is admitted to practice law in the
+  State of New York." That now contradicts the Bar Admissions list directly above it. It was
+  left unchanged because it is a statement about admission and should be your wording. The
+  obvious fix is "admitted to practice law in New York and New Jersey."
+- **Only one of the 39 meta descriptions mentions Brooklyn.** The instruction was to keep
+  Brooklyn in the meta descriptions, but it was only ever in one of them; none were removed.
+  If Brooklyn should appear in all of them, that is a separate pass.
+- **New Jersey advertising rules.** Every page now advertises to New Jersey readers, not only
+  the held-back New Jersey page. The review that page is waiting on arguably now applies
+  site-wide.

@@ -46,7 +46,7 @@ export default function PracticeAreas() {
       <div className="max-w-7xl mx-auto">
         <div className="mb-10 sm:mb-16 space-y-4">
           <h2 className="font-black text-4xl sm:text-5xl tracking-tight" style={{ fontFamily: "'Playfair Display', serif" }}>Practice Areas</h2>
-          <p className="text-lg sm:text-xl text-[#71717a] max-w-2xl leading-relaxed">We focus exclusively on high-stakes personal injury litigation across New York City.</p>
+          <p className="text-lg sm:text-xl text-[#71717a] max-w-2xl leading-relaxed">We focus exclusively on high-stakes personal injury litigation across New York and New Jersey.</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-8">
           {areas.map((a, i) => (
