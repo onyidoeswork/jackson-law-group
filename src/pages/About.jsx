@@ -83,7 +83,7 @@ export default function About() {
             {/* Bio & Details */}
             <div className="flex-1 space-y-10">
               <p className="text-[#71717a] leading-relaxed text-lg">
-                Janai Jackson is the founder of Jackson Legal Group, P.C., where she is committed to delivering exceptional legal representation and personalized service to every client. Ms. Jackson is admitted to practice law in the State of New York and focuses her practice on advocating for individuals who have been injured due to the negligence of others.
+                Janai Jackson is the founder of Jackson Legal Group, P.C., where she is committed to delivering exceptional legal representation and personalized service to every client. Ms. Jackson is admitted to practice law in New York and New Jersey, and focuses her practice on advocating for individuals who have been injured due to the negligence of others.
               </p>
               <p className="text-[#71717a] leading-relaxed text-lg">
                 Ms. Jackson earned her Bachelor of Science from Morgan State University and her Juris Doctor from Touro Law Center. She began her legal career as an Assistant District Attorney in the Kings County District Attorney's Office, where she gained extensive courtroom experience handling a wide range of cases and advocating on behalf of the community.
@@ -131,7 +131,8 @@ export default function About() {
                     <h4 className="font-black text-sm uppercase tracking-widest">Bar Admissions</h4>
                   </div>
                   <ul className="space-y-2 text-sm text-[#71717a]">
-                    <li>New York State</li>
+                    <li>New York</li>
+                    <li>New Jersey</li>
                     <li>U.S. District Court, Eastern District of New York</li>
                   </ul>
                 </div>
