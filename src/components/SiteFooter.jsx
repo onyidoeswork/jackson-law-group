@@ -34,7 +34,7 @@ className="h-14 w-auto object-contain rounded-sm mt-2 md:mt-3"        />
           {/* Legal */}
           <div className="space-y-1">
             <p className="text-xs text-[#71717a]">© 2026 Jackson Legal Group, P.C. All rights reserved.</p>
-            <p className="text-xs text-[#71717a]">Attorney Advertising. Prior results do not guarantee a similar outcome.</p>
+            <p className="text-xs text-[#71717a]">Attorney Advertising. Prior results do not guarantee a similar outcome. No aspect of this advertisement has been approved by the Supreme Court of New Jersey.</p>
             <p className="text-xs text-[#71717a]">This website is for informational purposes only and does not constitute legal advice.</p>
             <a href="/privacy-policy" className="text-xs text-[#c5a043] hover:underline font-semibold">Privacy Policy</a>
           </div>
