@@ -227,3 +227,54 @@ still carries exactly one of those.
 **Note on "Prior results do not guarantee a similar outcome."** That sentence was already on
 every page — in the footer on all 39, and again under the Results section on the 9 pages that
 show settlements. It was not added again, to avoid a third copy.
+
+---
+
+## 12. New Jersey page published
+
+Ms. Jackson approved the New Jersey page, so it has been restored to the live site. **The site
+now has 40 practice pages.**
+
+| | |
+|---|---|
+| Page | moved from `drafts/` back to `public/practice/new-jersey-personal-injury/`; the `drafts/` folder is gone |
+| Sitemap | restored, now 40 practice pages and 44 entries in total |
+| Practice Areas menu | restored under Personal Injury, desktop and mobile, on all 41 pages |
+| Personal Injury page | restored in its "Types of cases" list |
+| Practice areas index | restored |
+| React menu data | restored in `practice-menu.json`, so the home page and About menus match |
+
+**82 links restored across 40 files**, exactly matching the number removed when the page was
+held back.
+
+### The page itself
+
+Her approved wording is unchanged:
+
+> **Injured in a New Jersey car accident?** If your New Jersey auto policy has the "limitation
+> on lawsuit" option, you can sue for pain and suffering only if your injury falls into certain
+> serious injury categories.
+
+- **Headline kept New Jersey focused** — "New Jersey Personal Injury Lawyers" rather than
+  "in NY & NJ", since the page is already about New Jersey. It was pluralised from "Lawyer" to
+  "Lawyers" to match every other page on the site.
+- Carries the same sitewide disclaimer, intake form and WhatsApp link as the other pages, and
+  the New Jersey advertising notice in its footer.
+- `areaServed` updated to New York City, New York and New Jersey, matching the rest.
+- The "held back from launch" comment has been removed.
+
+### Verification
+
+| Check | Result |
+|---|---|
+| Practice pages | 40 |
+| Sitemap | 40/40, matching the published folders |
+| Broken internal links | none |
+| Pages not linked from anywhere | none |
+| JSON-LD | valid on every page |
+| Disclaimers per page | exactly 1 |
+| New Jersey footer notice | on all 41 pages |
+| Build and lint | pass |
+
+Fetched as a search engine sees it, the new page returns 25.6 KB of real HTML with its own
+headline, three schema blocks and 1,417 words.
