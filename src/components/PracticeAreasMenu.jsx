@@ -151,7 +151,7 @@ export function PracticeAreasMegaMenu() {
           <div className="border-t border-[#e4e4e7]">
             <div className="mx-auto flex max-w-7xl flex-wrap justify-between gap-4 px-8 py-3 text-sm">
               <a href="/practice/" className="font-bold text-[#18181b] underline hover:text-[#c5a043]">
-                View all 40 practice area pages
+                View all practice areas
               </a>
               <span className="text-[#71717a]">
                 Free consultation:{' '}

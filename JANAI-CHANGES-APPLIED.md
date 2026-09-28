@@ -145,9 +145,11 @@ Run against the production build after all changes:
 
 ---
 
-## 9. Still open
+## 9. Follow-up decisions, now applied
 
-| | Item |
-|---|---|
-| a | **"View all 40 practice area pages"** appears in the menu footer and site footer. With New Jersey held back the figure is 39. Say the word and it changes everywhere. |
-| b | **WhatsApp link.** The request to swap `wa.me/message/…` for `wa.me/12125225766` was not applied. The number-based link only works if the WhatsApp Business account is registered to 212-522-5766; if it is on a different number the button breaks. Confirm the number and it takes a minute. |
+| | Item | Outcome |
+|---|---|---|
+| a | "View all 40 practice area pages" | Changed to **"View all practice areas"** everywhere, 84 places in total. It no longer carries a number, so it will not need editing when New Jersey goes live. |
+| b | WhatsApp link | Swapped to **https://wa.me/12125225766** on all 43 buttons, after the number-based link was tested and confirmed to open a chat with Jackson Legal Group. |
+| c | Footer disclaimer | Kept as it is, as instructed. |
+| d | Disclaimer placement | Confirmed **above the intake form**, as instructed. On every page the disclaimer appears in the page before the form in document order, and roughly 360 pixels above it on screen. The previous short disclaimer that sat below the form was removed. |

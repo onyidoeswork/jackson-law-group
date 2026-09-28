@@ -23,7 +23,7 @@ className="h-14 w-auto object-contain rounded-sm mt-2 md:mt-3"        />
             ))}
             <li className="pt-1">
               <a href="/practice/" className="text-xs font-semibold text-[#c5a043] hover:underline">
-                View all 40 pages
+                View all practice areas
               </a>
             </li>
           </ul>
