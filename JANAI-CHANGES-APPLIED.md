@@ -177,15 +177,26 @@ Accidents. Both are about New York City bodies specifically — a headline readi
 Against the City of New York in New York and New Jersey" would not make sense. Their
 `areaServed` was still updated.
 
-### Needs your decision
+### Decisions taken
 
-- **The About page biography** still reads "Ms. Jackson is admitted to practice law in the
-  State of New York." That now contradicts the Bar Admissions list directly above it. It was
-  left unchanged because it is a statement about admission and should be your wording. The
-  obvious fix is "admitted to practice law in New York and New Jersey."
-- **Only one of the 39 meta descriptions mentions Brooklyn.** The instruction was to keep
-  Brooklyn in the meta descriptions, but it was only ever in one of them; none were removed.
-  If Brooklyn should appear in all of them, that is a separate pass.
+- **About page biography — updated.** It read "Ms. Jackson is admitted to practice law in the
+  State of New York," which contradicted the Bar Admissions list above it. On Ms. Jackson's
+  confirmation of both admissions it now reads: *"Ms. Jackson is admitted to practice law in
+  New York and New Jersey, and focuses her practice on advocating for individuals who have
+  been injured due to the negligence of others."*
+- **Title tags — keeping the short "NY & NJ" form**, so the firm name is not cut off in search
+  results.
+- **Claims Against the City of New York and NYCHA Accidents — headlines left as they are**, as
+  both concern New York City bodies specifically.
+- **Brooklyn in meta descriptions — deferred.** Only one of the 39 mentions Brooklyn. None were
+  removed; adding it to the rest remains available as a separate pass.
+
+### Still open
+
 - **New Jersey advertising rules.** Every page now advertises to New Jersey readers, not only
   the held-back New Jersey page. The review that page is waiting on arguably now applies
   site-wide.
+- **Google Search Console.** The sitemap has not yet been submitted. It is live and reachable
+  at `/sitemap.xml`, and `robots.txt` points at it, so Google will find the pages in time
+  regardless; submitting only speeds up discovery. The property should be created and verified
+  in the firm's own Google account so that ownership sits with the firm.
