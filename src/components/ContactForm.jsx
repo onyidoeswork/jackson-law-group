@@ -33,6 +33,7 @@ export default function ContactForm() {
 >
   <input type="hidden" name="form-name" value="contact" />
   <input type="hidden" name="bot-field" />
+  <input type="hidden" name="practice_area" value="Home Page" />
 
   <input
     name="first_name"

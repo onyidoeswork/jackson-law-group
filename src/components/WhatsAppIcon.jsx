@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const WHATSAPP_URL = 'https://wa.me/message/KQDIJ55HDOCVA1';
+export const WHATSAPP_URL = 'https://wa.me/12125225766';
 
 export default function WhatsAppIcon({ size = 20, className = '' }) {
   return (

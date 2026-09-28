@@ -1,1 +1,11 @@
+# SPA fallback: unmatched paths render the React app.
+#
+# Netlify serves an existing static file in preference to a non-forced
+# rule, which is what allows the 40 practice area pages under /practice/
+# and their /assets/ to be served as real HTML for crawlers.
+#
+# Do NOT add a force flag (!) to the rule below. That would override file
+# precedence and send /practice/* into the SPA, which is exactly the
+# problem these pages exist to solve.
+
 /*    /index.html   200

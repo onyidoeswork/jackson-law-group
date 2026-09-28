@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import WhatsAppIcon, { WHATSAPP_URL } from './WhatsAppIcon';
+import { PracticeAreasMegaMenu, PracticeAreasAccordion } from './PracticeAreasMenu';
 
 export default function SiteHeader({ onOpenModal }) {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -39,7 +40,7 @@ export default function SiteHeader({ onOpenModal }) {
       {/* DESKTOP NAV */}
       <nav className={`hidden lg:flex items-center gap-8 text-sm font-bold uppercase tracking-widest transition-colors duration-300 ${isScrolled ? 'text-[#3a3a3a]' : 'text-white'}`}>
         <a href="#results" className="hover:text-[#c5a043] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c5a043]">Results</a>
-        <a href="#practice-areas" className="hover:text-[#c5a043] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c5a043]">Practice Areas</a>
+        <PracticeAreasMegaMenu />
         <a href="#team" className="hover:text-[#c5a043] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c5a043]">Our Team</a>
         <a href="/about" className="hover:text-[#c5a043] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c5a043]">About Janai</a>
         <a href="#critical-action" className="hover:text-[#c5a043] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#c5a043]">Contact Us</a>
@@ -48,7 +49,7 @@ export default function SiteHeader({ onOpenModal }) {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Message us on WhatsApp"
+            aria-label="Chat on WhatsApp"
             className={`p-2 rounded-sm border transition-colors hover:border-[#c5a043] hover:text-[#c5a043] ${isScrolled ? 'border-[#3a3a3a]/30' : 'border-white/40'}`}
           >
             <WhatsAppIcon size={16} />
@@ -71,7 +72,7 @@ export default function SiteHeader({ onOpenModal }) {
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Message us on WhatsApp"
+          aria-label="Chat on WhatsApp"
           className={`transition-colors duration-300 ${isScrolled ? 'text-[#3a3a3a]' : 'text-white'} hover:text-[#c5a043]`}
         >
           <WhatsAppIcon size={22} />
@@ -86,9 +87,9 @@ export default function SiteHeader({ onOpenModal }) {
 
       {/* MOBILE MENU */}
       {mobileOpen && (
-        <div className="absolute top-full left-0 right-0 bg-white border-t border-[#e4e4e7] shadow-lg lg:hidden z-50 p-6 flex flex-col gap-4">
+        <div className="absolute top-full left-0 right-0 bg-white border-t border-[#e4e4e7] shadow-lg lg:hidden z-50 p-6 flex flex-col gap-4 max-h-[calc(100vh-5rem)] overflow-y-auto">
           <a href="#results" className="font-bold uppercase tracking-widest text-sm hover:text-[#c5a043] transition-colors" onClick={() => setMobileOpen(false)}>Results</a>
-          <a href="#practice-areas" className="font-bold uppercase tracking-widest text-sm hover:text-[#c5a043] transition-colors" onClick={() => setMobileOpen(false)}>Practice Areas</a>
+          <PracticeAreasAccordion onNavigate={() => setMobileOpen(false)} />
           <a href="#team" className="font-bold uppercase tracking-widest text-sm hover:text-[#c5a043] transition-colors" onClick={() => setMobileOpen(false)}>Our Team</a>
           <a href="/about" className="font-bold uppercase tracking-widest text-sm hover:text-[#c5a043] transition-colors" onClick={() => setMobileOpen(false)}>About Janai</a>
           <a href="#critical-action" className="font-bold uppercase tracking-widest text-sm hover:text-[#c5a043] transition-colors" onClick={() => setMobileOpen(false)}>Contact Us</a>

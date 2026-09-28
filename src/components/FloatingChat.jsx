@@ -18,7 +18,7 @@ export default function FloatingChat({ onOpenModal, onClose }) {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Chat with us on WhatsApp"
+            aria-label="Chat on WhatsApp"
             className="flex items-center gap-1.5 text-[#c5a043] font-black uppercase tracking-widest text-xs px-3 py-2 border-r border-[#e4e4e7] hover:opacity-80 transition-opacity"
           >
             <WhatsAppIcon size={14} /> Chat Now

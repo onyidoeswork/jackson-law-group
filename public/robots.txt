@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://212jackson.com/sitemap.xml
