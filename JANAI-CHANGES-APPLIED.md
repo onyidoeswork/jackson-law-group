@@ -11,7 +11,7 @@ so the structured data never says something the visible page does not.
 
 ---
 
-## 1. Sitewide disclaimer — all 39 pages
+## 1. Sitewide disclaimer — all 40 pages
 
 Added at the end of the legal information, directly above the intake form. `(212) JACKSON`
 is a tap-to-call link to the site's existing number.
@@ -23,7 +23,7 @@ is a tap-to-call link to the site's existing number.
 > **Attorney Advertising.**
 
 The previous shorter disclaimer was removed from every page, so each page now carries exactly
-one. Verified: 39 pages, one each. The separate form disclaimer above the submit button is
+one. Verified: 40 pages, one each. The separate form disclaimer above the submit button is
 unchanged.
 
 **One judgment call for your review.** The site footer still carries its own short line
@@ -88,6 +88,10 @@ changes, or the form disclaimer. "Top Rated Injury Firm" remains removed.
 
 ## 6. New Jersey page held back
 
+> **Superseded by Section 12.** The page was held back at the time this section was written.
+> Ms. Jackson has since approved it and it is now published. This section is kept as a record
+> of what was done while it was on hold.
+
 `/practice/new-jersey-personal-injury/` is **not part of this launch**, pending review against
 New Jersey's attorney advertising rules.
 
@@ -133,12 +137,12 @@ Run against the production build after all changes:
 
 | Check | Result |
 |---|---|
-| Practice pages | 39 |
+| Practice pages | 40 |
 | Broken internal links | none |
-| Sitemap practice pages | 39, exactly matching the published folders |
-| Sitemap total entries | 43 (39 practice + index + home + about + privacy policy) |
+| Sitemap practice pages | 40, exactly matching the published folders |
+| Sitemap total entries | 44 (40 practice + index + home + about + privacy policy) |
 | JSON-LD schema | valid on every page |
-| Disclaimers per page | exactly 1 on all 39 |
+| Disclaimers per page | exactly 1 on all 40 |
 | "Delcid", "comparative fault", "sole proximate", "1103", "other government vehicle" | zero occurrences anywhere in the published output |
 | Your approved text | all 21 passages confirmed present on the expected pages |
 | Build and lint | pass |
@@ -166,11 +170,17 @@ Applied after the pages went live, to present the firm across both states.
 | Home page practice areas intro | "…across New York City." → **"…across New York and New Jersey."** |
 | Page headlines | 37 H1s now end **"in New York and New Jersey"** |
 | Title tags and og:title | 37 updated to **"in NY & NJ"**, kept short so the firm name is not cut off in search results |
-| Structured data | `areaServed` on all 39 pages is now **New York City, New York, New Jersey** |
+| Structured data | `areaServed` on all 40 pages is now **New York City, New York, New Jersey** |
 | About page, Bar Admissions | now reads **New York / New Jersey / U.S. District Court, Eastern District of New York**. "State" dropped. |
 
-Body copy and meta descriptions were not touched, so Brooklyn remains throughout the text of
-all 39 pages and the local search signal is kept.
+Body copy and meta descriptions were not touched, so no Brooklyn reference was removed.
+
+**Correction.** An earlier draft of this document said Brooklyn remained "throughout the text
+of all 39 pages". That count included the footer, which carries both Brooklyn office
+addresses on every page. Counting the page copy itself, Brooklyn appears on **6 of the 40
+pages**, and in **1 of the 40** meta descriptions. The office addresses in the footer remain
+the strongest consistent local signal. If Brooklyn should appear more widely in the copy,
+that is a separate pass.
 
 **Two pages were deliberately left alone:** Claims Against the City of New York, and NYCHA
 Accidents. Both are about New York City bodies specifically — a headline reading "Claims
@@ -188,7 +198,7 @@ Against the City of New York in New York and New Jersey" would not make sense. T
   results.
 - **Claims Against the City of New York and NYCHA Accidents — headlines left as they are**, as
   both concern New York City bodies specifically.
-- **Brooklyn in meta descriptions — deferred.** Only one of the 39 mentions Brooklyn. None were
+- **Brooklyn in meta descriptions — deferred.** Only one of the 40 mentions Brooklyn. None were
   removed; adding it to the rest remains available as a separate pass.
 
 ### Still open
@@ -217,7 +227,7 @@ The footer now reads:
 > informational purposes only and does not constitute legal advice. **No aspect of this
 > advertisement has been approved by the Supreme Court of New Jersey.**
 
-It appears **once on every page of the site** — the 39 practice pages, the practice areas index,
+It appears **once on every page of the site** — the 40 practice pages, the practice areas index,
 and, through the shared footer component, the home page, About and Privacy Policy. It was also
 added to the held-back New Jersey draft so that page is ready when it publishes.
 
@@ -225,7 +235,7 @@ Nothing else was changed. The disclaimer above each intake form is untouched, an
 still carries exactly one of those.
 
 **Note on "Prior results do not guarantee a similar outcome."** That sentence was already on
-every page — in the footer on all 39, and again under the Results section on the 9 pages that
+every page — in the footer on all 40, and again under the Results section on the 9 pages that
 show settlements. It was not added again, to avoid a third copy.
 
 ---
